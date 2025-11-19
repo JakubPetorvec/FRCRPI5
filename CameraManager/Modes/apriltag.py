@@ -1,12 +1,14 @@
 import cv2
 import numpy as np
 import asyncio
+import time
 from pupil_apriltags import Detector
 
 from base_mode import BaseCameraMode
 
 class AprilTag(BaseCameraMode):
     name = "APRILTAG"
+    SEND_INTERVAL_S = 0.5
 
     async def start(self):
         self.detector = Detector(
@@ -23,6 +25,8 @@ class AprilTag(BaseCameraMode):
 
         cx = self.frame_w // 2
         cy = self.frame_h // 2
+
+        last_send = 0
 
         while self.running:
             ok, frame = self.cap.read()
@@ -88,13 +92,18 @@ class AprilTag(BaseCameraMode):
             #else:
                 #self.log.debug("no tag")
 
-            # UDP → RoboRIO
-            await self.send_data(offset_x, offset_y, tag_id)
+            now = time.time()
+            if now - last_send >= self.SEND_INTERVAL_S:
+                # UDP → RoboRIO
+                await self.send_data(offset_x, offset_y, tag_id)
 
-            # Messenger → Display (pokud bus existuje)
-            if getattr(self.manager, "bus", None) is not None:
-                await self.manager.bus.send_apriltag(display_tags)
-            else: self.log.debug("no bus")
+                # Messenger → Display (pokud bus existuje)
+                if getattr(self.manager, "bus", None) is not None:
+                    await self.manager.bus.send_apriltag(display_tags)
+                else:
+                    self.log.debug("no bus")
+
+                last_send = now
 
             # preview
             preview = cv2.resize(debug, (self.frame_w, self.frame_h))

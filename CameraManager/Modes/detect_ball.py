@@ -62,7 +62,9 @@ class DetectBall(BaseCameraMode):
             ball_x = -1
             ball_y = -1
 
-            if best is not None:
+            ball_detected = best is not None
+
+            if ball_detected:
                 M = cv2.moments(best)
                 if M["m00"] > 0:
                     bx = int(M["m10"] / M["m00"])
@@ -74,6 +76,7 @@ class DetectBall(BaseCameraMode):
                     (cx2, cy2), r = cv2.minEnclosingCircle(best)
                     cv2.circle(debug, (int(cx2), int(cy2)), int(r), (0,255,0), 2)
                     cv2.circle(debug, (bx, by), 6, (0,255,0), -1)
+                    radius = float(r)
 
                     # XY text
                     rel_x = bx - cx
@@ -81,9 +84,13 @@ class DetectBall(BaseCameraMode):
                     cv2.putText(debug, f"X={rel_x}  Y={rel_y}", (bx+10, by),
                                 cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0,255,0), 2)
 
-            else:
-                rel_x = -1
-                rel_y = -1
+            ball_payload = {
+                "found": bool(best is not None and ball_x >= 0 and ball_y >= 0),
+                "center": [float(ball_x), float(ball_y)],
+                "offset": [float(rel_x), float(rel_y)],
+                "radius": float(radius),
+                "area": float(best_area),
+            }
 
             # -------------------------------------
             # POSÍLÁNÍ DAT KAŽDÝCH X ms
@@ -91,6 +98,11 @@ class DetectBall(BaseCameraMode):
             now = time.time() * 1000
             if now - last_send > SEND_INTERVAL_MS:
                 await self.send_data(rel_x, rel_y)
+                self.manager.update_ball_data(rel_x, rel_y)
+
+                if getattr(self.manager, "bus", None) is not None:
+                    await self.manager.bus.send_detect_ball(rel_x, rel_y, ball_detected)
+
                 last_send = now
 
             # -------------------------------------

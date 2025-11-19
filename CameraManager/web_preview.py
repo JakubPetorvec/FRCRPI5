@@ -68,7 +68,7 @@ class MJPEGHandler(http.server.BaseHTTPRequestHandler):
 
 
 def start_http_server():
-    PORT = 8080
+    PORT = 8081
     log.info(f"Starting MJPEG server on {PORT}")
 
     with socketserver.TCPServer(("", PORT), MJPEGHandler) as httpd:
