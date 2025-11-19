@@ -1,0 +1,2 @@
+Doupravit rounding v micropythonu
+Zvýšit baud rate z 9600

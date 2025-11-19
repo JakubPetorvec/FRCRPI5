@@ -1,0 +1,10 @@
+[
+  {
+    "name": "MessengerServer",
+    "path": "/home/dickin/FRC/Messenger/messenger_server.py"
+  },
+  {
+    "name": "DetectBall",
+    "path": "/home/dickin/FRC/CameraManager/DetectBall/detect_ball.py"
+  }
+]

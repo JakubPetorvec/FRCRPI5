@@ -1,0 +1,47 @@
+{
+  "menu": [
+    {
+      "title": "Messenger Server",
+      "submenu": [
+        { "title": "Logs",   "action": "log:/home/dickin/FRC/Messenger/Logs/messenger.log" },
+        { "title": "Errors", "action": "error:/home/dickin/FRC/Messenger/Logs/messenger.err" },
+        { "title": "Restart", "action": "restart:messenger.service" }
+      ]
+    },
+    {
+      "title": "Display",
+      "submenu": [
+        { "title": "Logs",   "action": "log:/home/dickin/FRC/DisplayManager/Logs/display.log" },
+        { "title": "Errors", "action": "error:/home/dickin/FRC/DisplayManager/Logs/display.err" },
+        { "title": "Restart", "action": "restart:display.service" }
+      ]
+    },
+    {
+      "title": "Led Strip",
+      "submenu": [
+        { "title": "Logs",   "action": "log:/home/dickin/FRC/LedStipManager/Logs/led_strip_manager.log" },
+        { "title": "Errors", "action": "error:/home/dickin/FRC/LedStipManager/Logs/led_strip_manager.err" },
+        { "title": "Restart", "action": "restart:led_strip_manager.service" }
+      ]
+    },
+    {
+      "title": "Sonics",
+      "submenu": [
+        { "title": "Overview","action": "robot_sonic"},
+        { "title": "Logs",   "action": "log:/home/dickin/FRC/UltrasonicManager/Logs/ultrasonic.log" },
+        { "title": "Errors", "action": "error:/home/dickin/FRC/UltrasonicManager/Logs/ultrasonic.err" },
+        { "title": "Restart", "action": "restart:ultrasonic_manager.service" }
+      ]
+    },
+    {
+      "title": "Camera Manager",
+      "submenu": [
+        { "title": "AprilTags", "action": "april_tags"}
+      ]
+    },
+    {
+      "title": "System",
+      "submenu":[{}]
+    }
+  ]
+}
