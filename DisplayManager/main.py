@@ -28,10 +28,10 @@ class DisplayManager(App):
         self.menu_config = None
         self.root_layout = None
 
-        # jedna sdílená instance AprilTagScreen
-        self.april_tag_screen = None
+        self.april_tag_screen = None 
+        self.detect_ball_screen = None
+        self.detect_qrcode_screen = None
 
-        # vlastní asyncio loop (když bys ho někde chtěl)
         self.async_loop = asyncio.new_event_loop()
         self.async_thread = threading.Thread(
             target=self.start_async_loop,
@@ -59,7 +59,7 @@ class DisplayManager(App):
         return self.root_layout
 
     def load_config(self):
-        self.logger.debug("Loading menu.json")
+        #self.logger.debug("Loading menu.json")
         menu_path = os.path.join(BASE_DIR, "menu.json")
         with open(menu_path) as f:
             return json.load(f)
@@ -90,7 +90,7 @@ class DisplayManager(App):
         dispatch_action(self, action)
 
     def _show_screen(self, screen):
-        self.logger.debug(f"Switching to {screen.__class__.__name__}")
+        #self.logger.debug(f"Switching to {screen.__class__.__name__}")
         self.root_layout.clear_widgets()
         self.current_screen = screen
         self.root_layout.add_widget(screen.build())
@@ -108,7 +108,7 @@ class DisplayManager(App):
             self.open_logo()
 
     def open_logo(self):
-        self.logger.debug("Returning to LogoScreen")
+        #self.logger.debug("Returning to LogoScreen")
         self.screen_history.clear()
         self._show_screen(LogoScreen(self))
 

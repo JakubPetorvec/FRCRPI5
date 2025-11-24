@@ -9,19 +9,12 @@ from LoggerManager.logger import Logger
 
 import zmq.utils.jsonapi as jsonapi
 
-
 class CameraBus:
-    """
-    Async klient k MessengerServeru.
-    Posílá JSON zprávy typu 'camera_event' na DisplayManager.
-    """
-
     def __init__(self, name="CameraBus"):
         self.log = Logger(name)
         self.ctx = zmq.asyncio.Context.instance()
         self.sock = self.ctx.socket(zmq.DEALER)
 
-        # stejný endpoint jako MessengerServer
         self.sock.connect("ipc:///tmp/messenger_data.sock")
 
         self.sender_name = "CameraManager"
@@ -30,16 +23,6 @@ class CameraBus:
         self.log.info("CameraBus connected to messenger.")
 
     async def send_apriltag(self, tags):
-        """
-        tags = list dictů:
-        {
-          "id": int,
-          "family": str,
-          "center": [x, y],
-          "offset": [dx, dy],
-          "corners": [[x1,y1],..., [x4,y4]]
-        }
-        """
         msg = {
             "sender": self.sender_name,
             "target": self.target_name,
@@ -53,10 +36,49 @@ class CameraBus:
 
         try:
             await self.sock.send(jsonapi.dumps(msg))
-            #self.log.debug(f"Sent APRILTAG event with {len(tags)} tags")
-            self.log.debug(jsonapi.dumps(msg).decode())
+            #self.log.debug(jsonapi.dumps(msg).decode())
         except Exception as e:
             self.log.warn(f"send_apriltag failed: {e}")
+
+    async def send_detect_ball(self, rel_x, rel_y, detected):
+        msg = {
+            "sender": self.sender_name,
+            "target": self.target_name,
+            "type": "camera_event",
+            "mode": "DETECTBALL",
+            "payload": {
+                "timestamp": time.time(),
+                "ball": {
+                    "x": float(rel_x),
+                    "y": float(rel_y),
+                    "detected": bool(detected),
+                },
+            },
+        }
+
+        try:
+            #self.log.debug(jsonapi.dumps(msg).decode())
+            await self.sock.send(jsonapi.dumps(msg))
+        except Exception as e:
+            self.log.warn(f"send_detect_ball failed: {e}")
+
+    async def send_qrcode(self, codes):
+        msg = {
+            "sender": self.sender_name,
+            "target": self.target_name,
+            "type": "camera_event",
+            "mode": "QRCODE",
+            "payload": {
+                "timestamp": time.time(),
+                "codes": codes,
+            },
+        }
+
+        try:
+            #self.log.debug(jsonapi.dumps(msg).decode())
+            await self.sock.send(jsonapi.dumps(msg))
+        except Exception as e:
+            self.log.warn(f"send_qrcode failed: {e}")
 
     async def close(self):
         try:

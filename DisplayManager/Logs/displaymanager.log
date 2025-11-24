@@ -1,0 +1,54 @@
+[2025-11-23 16:25:32] [DEBUG] Loading menu.json
+[2025-11-23 16:25:32] [INFO] DisplayManager starting…
+[2025-11-23 16:25:32] [DEBUG] Loading menu.json
+[2025-11-23 16:25:32] [DEBUG] Switching to LogoScreen
+[2025-11-23 16:25:32] [INFO] UI ready.
+[2025-11-23 16:25:32] [INFO] DisplayManager registered to MessengerServer
+[2025-11-23 16:25:53] [INFO] Opening menu: Menu
+[2025-11-23 16:25:53] [DEBUG] Switching to MenuScreen
+[2025-11-23 16:25:53] [INFO] Opening menu: Menu
+[2025-11-23 16:25:53] [DEBUG] Switching to MenuScreen
+[2025-11-23 16:25:59] [INFO] Menu item clicked: Messenger Server
+[2025-11-23 16:25:59] [INFO] Opening menu: Messenger Server
+[2025-11-23 16:25:59] [DEBUG] Switching to MenuScreen
+[2025-11-23 16:26:03] [INFO] Menu item clicked: Restart
+[2025-11-23 16:26:03] [INFO] Executing action: restart:messenger.service
+[2025-11-23 16:26:03] [DEBUG] Switching to ConfirmScreen
+[2025-11-23 16:26:04] [DEBUG] Back pressed
+[2025-11-23 16:26:04] [DEBUG] Switching to MenuScreen
+[2025-11-23 16:26:04] [DEBUG] Back pressed
+[2025-11-23 16:26:04] [DEBUG] Switching to MenuScreen
+[2025-11-23 16:26:05] [DEBUG] Back pressed
+[2025-11-23 16:26:05] [DEBUG] Switching to MenuScreen
+[2025-11-23 16:26:05] [DEBUG] Back pressed
+[2025-11-23 16:26:05] [DEBUG] Switching to LogoScreen
+[2025-11-23 16:28:46] [INFO] DisplayManager starting…
+[2025-11-23 16:28:46] [INFO] UI ready.
+[2025-11-23 16:28:46] [INFO] DisplayManager registered to MessengerServer
+[2025-11-23 16:28:48] [INFO] Opening menu: Menu
+[2025-11-23 16:28:48] [INFO] Opening menu: Menu
+[2025-11-23 16:28:52] [DEBUG] Back pressed
+[2025-11-23 16:28:52] [DEBUG] Back pressed
+[2025-11-23 16:29:19] [INFO] DisplayManager starting…
+[2025-11-23 16:29:19] [INFO] UI ready.
+[2025-11-23 16:29:19] [INFO] DisplayManager registered to MessengerServer
+[2025-11-23 16:29:51] [INFO] DisplayManager starting…
+[2025-11-23 16:29:51] [INFO] UI ready.
+[2025-11-23 16:29:51] [INFO] DisplayManager registered to MessengerServer
+[2025-11-23 16:36:41] [INFO] DisplayManager starting…
+[2025-11-23 16:36:41] [INFO] UI ready.
+[2025-11-23 16:36:41] [INFO] DisplayManager registered to MessengerServer
+[2025-11-23 16:38:38] [INFO] DisplayManager starting…
+[2025-11-23 16:38:38] [INFO] UI ready.
+[2025-11-23 16:38:38] [INFO] DisplayManager registered to MessengerServer
+[2025-11-23 16:39:01] [INFO] Opening menu: Menu
+[2025-11-23 16:39:02] [INFO] Opening menu: Menu
+[2025-11-23 16:39:04] [INFO] Menu item clicked: Camera Manager
+[2025-11-23 16:39:04] [INFO] Opening menu: Camera Manager
+[2025-11-23 16:39:04] [INFO] Menu item clicked: AprilTags
+[2025-11-23 16:39:04] [INFO] Executing action: april_tags
+[2025-11-23 16:39:04] [INFO] AprilTagScreen ZMQ listener started
+[2025-11-23 16:39:06] [DEBUG] Back pressed
+[2025-11-23 16:39:06] [DEBUG] Back pressed
+[2025-11-23 16:39:06] [DEBUG] Back pressed
+[2025-11-23 16:39:06] [DEBUG] Back pressed

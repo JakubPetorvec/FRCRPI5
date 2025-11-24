@@ -1,0 +1,136 @@
+[2025-11-23 16:21:22] [INFO] CameraBus connected to messenger.
+[2025-11-23 16:21:22] [INFO] CameraManager ready.
+[2025-11-23 16:21:22] [INFO] Listening on UDP 5801
+[2025-11-23 16:21:22] [INFO] ZMQ listener ready.
+[2025-11-23 16:21:34] [INFO] CMD: SET MODE DETECTBALL
+[2025-11-23 16:21:34] [INFO] Přepínám režim → DETECTBALL
+[2025-11-23 16:21:34] [INFO] Kamera připravena: 640x480
+[2025-11-23 16:21:34] [INFO] DetectBall running
+[2025-11-23 16:21:42] [INFO] CMD: SET MODE IDLE
+[2025-11-23 16:21:42] [INFO] Zastavuji DETECTBALL
+[2025-11-23 16:21:42] [INFO] Zastaveno.
+[2025-11-23 16:21:42] [WARN] Neznámý mód IDLE, nic nespouštím.
+[2025-11-23 16:24:49] [INFO] CMD: SET MODE IDLE
+[2025-11-23 16:24:49] [WARN] Neznámý mód IDLE, nic nespouštím.
+[2025-11-23 16:29:17] [INFO] CameraBus connected to messenger.
+[2025-11-23 16:29:17] [INFO] CameraManager ready.
+[2025-11-23 16:29:17] [INFO] Listening on UDP 5801
+[2025-11-23 16:29:17] [INFO] ZMQ listener ready.
+[2025-11-23 16:29:50] [INFO] CameraBus connected to messenger.
+[2025-11-23 16:29:50] [INFO] CameraManager ready.
+[2025-11-23 16:29:50] [INFO] Listening on UDP 5801
+[2025-11-23 16:29:50] [INFO] ZMQ listener ready.
+[2025-11-23 16:33:01] [INFO] CameraBus connected to messenger.
+[2025-11-23 16:33:01] [INFO] CameraManager ready.
+[2025-11-23 16:33:01] [INFO] Listening on UDP 5801
+[2025-11-23 16:33:01] [INFO] ZMQ listener ready.
+[2025-11-23 16:37:07] [INFO] CameraBus connected to messenger.
+[2025-11-23 16:37:07] [INFO] CameraManager ready.
+[2025-11-23 16:37:07] [INFO] Listening on UDP 5801
+[2025-11-23 16:37:07] [INFO] ZMQ listener ready.
+[2025-11-23 16:45:59] [INFO] CameraBus connected to messenger.
+[2025-11-23 16:45:59] [INFO] CameraManager ready.
+[2025-11-23 16:45:59] [INFO] Listening on UDP 5801
+[2025-11-23 16:45:59] [INFO] ZMQ listener ready.
+[2025-11-23 16:49:22] [INFO] CameraBus connected to messenger.
+[2025-11-23 16:49:22] [INFO] CameraManager ready.
+[2025-11-23 16:49:22] [INFO] Listening on UDP 5801
+[2025-11-23 16:49:22] [INFO] ZMQ listener ready.
+[2025-11-23 16:52:17] [INFO] CameraBus connected to messenger.
+[2025-11-23 16:52:17] [INFO] CameraManager ready.
+[2025-11-23 16:52:17] [INFO] Listening on UDP 5801
+[2025-11-23 16:52:17] [INFO] ZMQ listener ready.
+[2025-11-23 16:54:42] [INFO] CameraBus connected to messenger.
+[2025-11-23 16:54:42] [INFO] CameraManager ready.
+[2025-11-23 16:54:42] [INFO] Listening on UDP 5801
+[2025-11-23 16:54:42] [INFO] ZMQ listener ready.
+[2025-11-23 16:59:35] [INFO] CameraBus connected to messenger.
+[2025-11-23 16:59:35] [INFO] CameraManager ready.
+[2025-11-23 16:59:35] [INFO] Listening on UDP 5801
+[2025-11-23 16:59:35] [INFO] ZMQ listener ready.
+[2025-11-23 17:01:02] [INFO] CameraBus connected to messenger.
+[2025-11-23 17:01:02] [INFO] CameraManager ready.
+[2025-11-23 17:01:02] [INFO] Listening on UDP 5801
+[2025-11-23 17:01:02] [INFO] ZMQ listener ready.
+[2025-11-23 18:33:15] [INFO] CameraBus connected to messenger.
+[2025-11-23 18:33:15] [INFO] CameraManager ready.
+[2025-11-23 18:33:15] [INFO] Listening on UDP 5801
+[2025-11-23 18:33:15] [INFO] ZMQ listener ready.
+[2025-11-23 19:47:03] [INFO] CameraBus connected to messenger.
+[2025-11-23 19:47:03] [INFO] CameraManager ready.
+[2025-11-23 19:47:03] [INFO] Listening on UDP 5801
+[2025-11-23 19:47:03] [INFO] ZMQ listener ready.
+[2025-11-23 20:52:20] [INFO] CMD: SET MODE DETECTBALL
+[2025-11-23 20:52:20] [INFO] Přepínám režim → DETECTBALL
+[2025-11-23 20:52:20] [INFO] Kamera připravena: 640x480
+[2025-11-23 20:52:20] [INFO] DetectBall running
+[2025-11-23 20:53:08] [INFO] CMD: STOP MODE DETECTBALL
+[2025-11-23 20:53:08] [WARN] Neplatný příkaz: STOP MODE DETECTBALL
+[2025-11-23 20:53:24] [INFO] CMD: STOP MODE STOP
+[2025-11-23 20:53:24] [WARN] Neplatný příkaz: STOP MODE STOP
+[2025-11-23 20:53:31] [INFO] CMD: STOP
+[2025-11-23 20:53:31] [WARN] Neplatný příkaz: STOP
+[2025-11-23 20:55:38] [INFO] CMD: STOP MODE STOP
+[2025-11-23 20:55:38] [WARN] Neplatný příkaz: STOP MODE STOP
+[2025-11-23 20:55:47] [INFO] CMD: STOP MODE QRCODE
+[2025-11-23 20:55:47] [WARN] Neplatný příkaz: STOP MODE QRCODE
+[2025-11-23 20:55:56] [INFO] CMD: STOP MODE DETECTBALL
+[2025-11-23 20:55:56] [WARN] Neplatný příkaz: STOP MODE DETECTBALL
+[2025-11-23 21:01:14] [INFO] CameraBus connected to messenger.
+[2025-11-23 21:01:14] [INFO] CameraManager ready.
+[2025-11-23 21:01:14] [INFO] Listening on UDP 5801
+[2025-11-23 21:01:14] [INFO] ZMQ listener ready.
+[2025-11-23 21:07:33] [INFO] CMD: SET MODE DETECTBALL
+[2025-11-23 21:07:33] [INFO] Přepínám režim → DETECTBALL
+[2025-11-23 21:07:34] [INFO] Kamera připravena: 640x480
+[2025-11-23 21:07:34] [INFO] DetectBall running
+[2025-11-23 21:30:56] [INFO] CameraBus connected to messenger.
+[2025-11-23 21:30:56] [INFO] CameraManager ready.
+[2025-11-23 21:30:56] [INFO] Listening on UDP 5801
+[2025-11-23 21:30:56] [INFO] ZMQ listener ready.
+[2025-09-09 10:38:38] [INFO] CameraBus connected to messenger.
+[2025-09-09 10:38:38] [INFO] CameraManager ready.
+[2025-09-09 10:38:38] [INFO] Listening on UDP 5801
+[2025-09-09 10:38:38] [INFO] ZMQ listener ready.
+[2025-11-24 14:21:47] [INFO] CameraBus connected to messenger.
+[2025-11-24 14:21:47] [INFO] CameraManager ready.
+[2025-11-24 14:21:47] [INFO] Listening on UDP 5801
+[2025-11-24 14:21:47] [INFO] ZMQ listener ready.
+[2025-11-24 14:26:38] [INFO] CameraBus connected to messenger.
+[2025-11-24 14:26:38] [INFO] CameraManager ready.
+[2025-11-24 14:26:38] [INFO] Listening on UDP 5801
+[2025-11-24 14:26:38] [INFO] ZMQ listener ready.
+[2025-11-24 15:07:59] [INFO] CameraBus connected to messenger.
+[2025-11-24 15:07:59] [INFO] CameraManager ready.
+[2025-11-24 15:07:59] [INFO] Listening on UDP 5801
+[2025-11-24 15:07:59] [INFO] ZMQ listener ready.
+[2025-11-24 17:23:08] [INFO] CameraBus connected to messenger.
+[2025-11-24 17:23:08] [INFO] CameraManager ready.
+[2025-11-24 17:23:08] [INFO] Listening on UDP 5801
+[2025-11-24 17:23:08] [INFO] ZMQ listener ready.
+[2025-11-24 17:33:15] [INFO] CameraBus connected to messenger.
+[2025-11-24 17:33:15] [INFO] CameraManager ready.
+[2025-11-24 17:33:15] [INFO] Listening on UDP 5801
+[2025-11-24 17:33:15] [INFO] ZMQ listener ready.
+[2025-11-24 17:49:53] [INFO] CMD: SET MODE DETECTBALL
+[2025-11-24 17:49:53] [INFO] Přepínám režim → DETECTBALL
+[2025-11-24 17:49:53] [INFO] Kamera připravena: 640x480
+[2025-11-24 17:49:53] [INFO] DetectBall running
+[2025-11-24 17:49:58] [INFO] CMD: SET MODE DETECTBALL
+[2025-11-24 17:49:58] [INFO] Zastavuji DETECTBALL
+[2025-11-24 17:49:58] [INFO] Zastaveno.
+[2025-11-24 17:49:58] [INFO] Přepínám režim → DETECTBALL
+[2025-11-24 17:49:58] [INFO] Kamera připravena: 640x480
+[2025-11-24 17:49:58] [INFO] DetectBall running
+[2025-11-24 18:00:30] [INFO] CameraBus connected to messenger.
+[2025-11-24 18:00:30] [INFO] CameraManager ready.
+[2025-11-24 18:00:30] [INFO] Listening on UDP 5801
+[2025-11-24 18:00:30] [INFO] ZMQ listener ready.
+[2025-11-24 18:37:26] [INFO] CMD: SET MODE DETECTBALL
+[2025-11-24 18:37:26] [INFO] Přepínám režim → DETECTBALL
+[2025-11-24 18:37:27] [INFO] Kamera připravena: 640x480
+[2025-11-24 18:37:27] [INFO] DetectBall running
+[2025-11-24 18:49:44] [INFO] CameraBus connected to messenger.
+[2025-11-24 18:49:44] [INFO] CameraManager ready.
+[2025-11-24 18:49:44] [INFO] Listening on UDP 5801
+[2025-11-24 18:49:44] [INFO] ZMQ listener ready.

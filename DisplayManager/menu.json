@@ -36,7 +36,9 @@
     {
       "title": "Camera Manager",
       "submenu": [
-        { "title": "AprilTags", "action": "april_tags"}
+        { "title": "AprilTags", "action": "april_tags"},
+        { "title": "DetectBall", "action": "detect_ball"},
+        { "title": "QR Code", "action": "detect_qrcode"}
       ]
     },
     {

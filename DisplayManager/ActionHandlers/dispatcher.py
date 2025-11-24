@@ -2,9 +2,10 @@ from Screens.confirm_screen import ConfirmScreen
 from Screens.base_log_screen import BaseLogScreen
 from Screens.robot_sonic_screen import SonicScreen
 from Screens.apriltag_screen import AprilTagScreen
+from Screens.detectball_screen import DetectBallScreen
+from Screens.qrcodo_screen import QRCodeScreen
 
 import subprocess
-
 
 def dispatch_action(app, action: str):
 
@@ -34,13 +35,22 @@ def dispatch_action(app, action: str):
         app.navigate_to(SonicScreen(app))
         return
 
-    # >>>>> APRIL TAGS – JEDNA INSTANCI OBDRZOVKY <<<<<
     if action == "april_tags":
-        # vytvoříme jen jednou, pak už jen recyklujeme
         if app.april_tag_screen is None:
             app.april_tag_screen = AprilTagScreen(app)
         app.navigate_to(app.april_tag_screen)
         return
+     
+    if action == "detect_ball":
+        if app.detect_ball_screen is None:
+            app.detect_ball_screen = DetectBallScreen(app)
+        app.navigate_to(app.detect_ball_screen)
+        return
 
-    # fallback
+    if action == "detect_qrcode":
+        if app.detect_qrcode_screen is None:
+            app.detect_qrcode_screen = QRCodeScreen(app)
+        app.navigate_to(app.detect_qrcode_screen)
+        return
+
     app.logger.warn(f"No handler for action: {action}")

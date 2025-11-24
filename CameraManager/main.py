@@ -17,6 +17,7 @@ from ProgramManager.ports import (
 
 from Modes.detect_ball import DetectBall
 from Modes.apriltag import AprilTag
+from Modes.detect_qrcode import QRCodeMode
 
 from camera_bus import CameraBus
 
@@ -40,12 +41,7 @@ class CameraManager:
         self.sub.identity = b"CameraManager"
         self.sub.connect("ipc:///tmp/messenger_data.sock")
 
-        # ★★★★★ TADY BYLO TVÉ PEKLO ★★★★★
         self.bus = CameraBus("CameraBus")
-
-        # poslední data
-        self.last_ball = {"x": -1, "y": -1}
-        self.last_tag = {"id": -1, "x": -1, "y": -1}
 
     async def run(self):
 
@@ -86,6 +82,9 @@ class CameraManager:
         elif mode == "APRILTAG":
             self.current_mode = AprilTag(self)
 
+        elif mode == "QRCODE":
+            self.current_mode = QRCodeMode(self)
+
         else:
             self.log.warn(f"Neznámý mód {mode}, nic nespouštím.")
             self.current_mode = None
@@ -108,12 +107,6 @@ class CameraManager:
 
                 if cmd == "get_status":
                     resp = {"mode": self.current_mode.name if self.current_mode else "NONE"}
-
-                elif cmd == "get_last_ball":
-                    resp = self.last_ball.copy()
-
-                elif cmd == "get_last_tag":
-                    resp = self.last_tag.copy()
 
                 else:
                     resp = {"error": "Unknown command"}

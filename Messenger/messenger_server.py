@@ -34,16 +34,16 @@ class MessengerServer:
 
                 if sender:
                     self.targets[sender] = ident
-                    self.log.debug(f"Registered client '{sender}'")
+                    #self.log.debug(f"Registered client '{sender}'")
 
                 if target:
                     if target in self.targets:
-                        self.log.debug(f"Routing message to '{target}'")
+                        #self.log.debug(f"Routing message to '{target}'")
                         self.router.send_multipart([self.targets[target], msg])
-                    else:
-                        self.log.warn(f"Target '{target}' is not connected")
+                    #else:
+                        #self.log.warn(f"Target '{target}' is not connected")
             except Exception as e:
-                self.log.error(f"Message handling error: {e}")
+                #self.log.error(f"Message handling error: {e}")
                 await asyncio.sleep(0.1)
 
     async def heartbeat(self, interval):

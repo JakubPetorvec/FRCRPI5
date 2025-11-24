@@ -16,7 +16,7 @@ spec_ports.loader.exec_module(ports)
 
 UDP_PORT = 5820
 ROBORIO_IP = "10.69.69.2"
-SERIAL_PORT = "/dev/ttyACM0"
+SERIAL_PORT = "/dev/pico_sonic"
 BAUD = 9600
 
 # ============================================================

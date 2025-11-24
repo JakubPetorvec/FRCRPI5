@@ -1,0 +1,263 @@
+[INFO   ] [Logger      ] Record log in /home/dickin/.kivy/logs/kivy_25-11-23_0.txt
+[INFO   ] [Kivy        ] v2.3.1
+[INFO   ] [Kivy        ] Installed at "/home/dickin/FRC/venv/lib/python3.13/site-packages/kivy/__init__.py"
+[INFO   ] [Python      ] v3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]
+[INFO   ] [Python      ] Interpreter at "/home/dickin/FRC/venv/bin/python"
+[INFO   ] [Logger      ] Purge log fired. Processing...
+[INFO   ] [Logger      ] Purge finished!
+[INFO   ] [Factory     ] 195 symbols loaded
+[INFO   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[INFO   ] [Window      ] Provider: sdl2
+[INFO   ] [GL          ] Using the "OpenGL" graphics system
+[INFO   ] [GL          ] Backend used <sdl2>
+[INFO   ] [GL          ] OpenGL version <b'3.1 Mesa 25.0.7-2+rpt3'>
+[INFO   ] [GL          ] OpenGL vendor <b'Broadcom'>
+[INFO   ] [GL          ] OpenGL renderer <b'V3D 7.1.10.2'>
+[INFO   ] [GL          ] OpenGL parsed version: 3, 1
+[INFO   ] [GL          ] Shading version <b'1.40'>
+[INFO   ] [GL          ] Texture max size <4096>
+[INFO   ] [GL          ] Texture max units <24>
+[INFO   ] [Window      ] auto add sdl2 input provider
+[INFO   ] [Window      ] virtual keyboard not allowed, single mode, not docked
+[INFO   ] [Text        ] Provider: sdl2
+[DEBUG  ] [Using selector] EpollSelector
+[INFO   ] [GL          ] NPOT texture support is available
+[WARNING] Deprecated property "<BooleanProperty name=allow_stretch>" of object "<Screens.logo_screen.ClickableImage object at 0x7fff38a33e70>" has been set, it will be removed in a future version
+[WARNING] Deprecated property "<BooleanProperty name=keep_ratio>" of object "<Screens.logo_screen.ClickableImage object at 0x7fff38a33e70>" was accessed, it will be removed in a future version
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+[INFO   ] [ProbeSysfs  ] device match: /dev/input/event6
+[INFO   ] [MTD         ] Read event from </dev/input/event6>
+[INFO   ] [Base        ] Start application main loop
+[INFO   ] [MTD         ] </dev/input/event6> range position X is 0 - 1024
+[INFO   ] [MTD         ] </dev/input/event6> range position Y is 0 - 600
+[INFO   ] [MTD         ] </dev/input/event6> range touch major is 0 - 600
+[INFO   ] [MTD         ] </dev/input/event6> range touch minor is 0 - 600
+[INFO   ] [MTD         ] </dev/input/event6> range pressure is 0 - 255
+[INFO   ] [MTD         ] </dev/input/event6> axes inversion: X is 0, Y is 0
+[INFO   ] [MTD         ] </dev/input/event6> rotation set to 0
+[INFO   ] [Base        ] Leaving application in progress...
+[INFO   ] [Logger      ] Record log in /home/dickin/.kivy/logs/kivy_25-11-23_1.txt
+[INFO   ] [Kivy        ] v2.3.1
+[INFO   ] [Kivy        ] Installed at "/home/dickin/FRC/venv/lib/python3.13/site-packages/kivy/__init__.py"
+[INFO   ] [Python      ] v3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]
+[INFO   ] [Python      ] Interpreter at "/home/dickin/FRC/venv/bin/python"
+[INFO   ] [Logger      ] Purge log fired. Processing...
+[INFO   ] [Logger      ] Purge finished!
+[INFO   ] [Factory     ] 195 symbols loaded
+[INFO   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[INFO   ] [Window      ] Provider: sdl2
+[INFO   ] [GL          ] Using the "OpenGL" graphics system
+[INFO   ] [GL          ] Backend used <sdl2>
+[INFO   ] [GL          ] OpenGL version <b'3.1 Mesa 25.0.7-2+rpt3'>
+[INFO   ] [GL          ] OpenGL vendor <b'Broadcom'>
+[INFO   ] [GL          ] OpenGL renderer <b'V3D 7.1.10.2'>
+[INFO   ] [GL          ] OpenGL parsed version: 3, 1
+[INFO   ] [GL          ] Shading version <b'1.40'>
+[INFO   ] [GL          ] Texture max size <4096>
+[INFO   ] [GL          ] Texture max units <24>
+[INFO   ] [Window      ] auto add sdl2 input provider
+[INFO   ] [Window      ] virtual keyboard not allowed, single mode, not docked
+[INFO   ] [Text        ] Provider: sdl2
+[DEBUG  ] [Using selector] EpollSelector
+[INFO   ] [GL          ] NPOT texture support is available
+[WARNING] Deprecated property "<BooleanProperty name=allow_stretch>" of object "<Screens.logo_screen.ClickableImage object at 0x7fff37847d20>" has been set, it will be removed in a future version
+[WARNING] Deprecated property "<BooleanProperty name=keep_ratio>" of object "<Screens.logo_screen.ClickableImage object at 0x7fff37847d20>" was accessed, it will be removed in a future version
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+[INFO   ] [ProbeSysfs  ] device match: /dev/input/event6
+[INFO   ] [MTD         ] Read event from </dev/input/event6>
+[INFO   ] [Base        ] Start application main loop
+[INFO   ] [MTD         ] </dev/input/event6> range position X is 0 - 1024
+[INFO   ] [MTD         ] </dev/input/event6> range position Y is 0 - 600
+[INFO   ] [MTD         ] </dev/input/event6> range touch major is 0 - 600
+[INFO   ] [MTD         ] </dev/input/event6> range touch minor is 0 - 600
+[INFO   ] [MTD         ] </dev/input/event6> range pressure is 0 - 255
+[INFO   ] [MTD         ] </dev/input/event6> axes inversion: X is 0, Y is 0
+[INFO   ] [MTD         ] </dev/input/event6> rotation set to 0
+[INFO   ] [Base        ] Leaving application in progress...
+[INFO   ] [Logger      ] Record log in /home/dickin/.kivy/logs/kivy_25-11-23_2.txt
+[INFO   ] [Kivy        ] v2.3.1
+[INFO   ] [Kivy        ] Installed at "/home/dickin/FRC/venv/lib/python3.13/site-packages/kivy/__init__.py"
+[INFO   ] [Python      ] v3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]
+[INFO   ] [Python      ] Interpreter at "/home/dickin/FRC/venv/bin/python"
+[INFO   ] [Logger      ] Purge log fired. Processing...
+[INFO   ] [Logger      ] Purge finished!
+[INFO   ] [Factory     ] 195 symbols loaded
+[INFO   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[INFO   ] [Window      ] Provider: sdl2
+[INFO   ] [GL          ] Using the "OpenGL" graphics system
+[INFO   ] [GL          ] Backend used <sdl2>
+[INFO   ] [GL          ] OpenGL version <b'3.1 Mesa 25.0.7-2+rpt3'>
+[INFO   ] [GL          ] OpenGL vendor <b'Broadcom'>
+[INFO   ] [GL          ] OpenGL renderer <b'V3D 7.1.10.2'>
+[INFO   ] [GL          ] OpenGL parsed version: 3, 1
+[INFO   ] [GL          ] Shading version <b'1.40'>
+[INFO   ] [GL          ] Texture max size <4096>
+[INFO   ] [GL          ] Texture max units <24>
+[INFO   ] [Window      ] auto add sdl2 input provider
+[INFO   ] [Window      ] virtual keyboard not allowed, single mode, not docked
+[INFO   ] [Text        ] Provider: sdl2
+[DEBUG  ] [Using selector] EpollSelector
+[INFO   ] [GL          ] NPOT texture support is available
+[WARNING] Deprecated property "<BooleanProperty name=allow_stretch>" of object "<Screens.logo_screen.ClickableImage object at 0x7fff685b3d20>" has been set, it will be removed in a future version
+[WARNING] Deprecated property "<BooleanProperty name=keep_ratio>" of object "<Screens.logo_screen.ClickableImage object at 0x7fff685b3d20>" was accessed, it will be removed in a future version
+Unable to connect to X server
+[INFO   ] [ProbeSysfs  ] device match: /dev/input/event0
+[INFO   ] [MTD         ] Read event from </dev/input/event0>
+[INFO   ] [Base        ] Start application main loop
+[INFO   ] [MTD         ] </dev/input/event0> range position X is 0 - 1024
+[INFO   ] [MTD         ] </dev/input/event0> range position Y is 0 - 600
+[INFO   ] [MTD         ] </dev/input/event0> range touch major is 0 - 600
+[INFO   ] [MTD         ] </dev/input/event0> range touch minor is 0 - 600
+[INFO   ] [MTD         ] </dev/input/event0> range pressure is 0 - 255
+[INFO   ] [MTD         ] </dev/input/event0> axes inversion: X is 0, Y is 0
+[INFO   ] [MTD         ] </dev/input/event0> rotation set to 0
+[INFO   ] [Logger      ] Record log in /home/dickin/.kivy/logs/kivy_25-11-23_3.txt
+[INFO   ] [Kivy        ] v2.3.1
+[INFO   ] [Kivy        ] Installed at "/home/dickin/FRC/venv/lib/python3.13/site-packages/kivy/__init__.py"
+[INFO   ] [Python      ] v3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]
+[INFO   ] [Python      ] Interpreter at "/home/dickin/FRC/venv/bin/python"
+[INFO   ] [Logger      ] Purge log fired. Processing...
+[INFO   ] [Logger      ] Purge finished!
+[INFO   ] [Factory     ] 195 symbols loaded
+[INFO   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[INFO   ] [Window      ] Provider: sdl2
+[INFO   ] [GL          ] Using the "OpenGL" graphics system
+[INFO   ] [GL          ] Backend used <sdl2>
+[INFO   ] [GL          ] OpenGL version <b'3.1 Mesa 25.0.7-2+rpt3'>
+[INFO   ] [GL          ] OpenGL vendor <b'Broadcom'>
+[INFO   ] [GL          ] OpenGL renderer <b'V3D 7.1.10.2'>
+[INFO   ] [GL          ] OpenGL parsed version: 3, 1
+[INFO   ] [GL          ] Shading version <b'1.40'>
+[INFO   ] [GL          ] Texture max size <4096>
+[INFO   ] [GL          ] Texture max units <24>
+[INFO   ] [Window      ] auto add sdl2 input provider
+[INFO   ] [Window      ] virtual keyboard not allowed, single mode, not docked
+[INFO   ] [Text        ] Provider: sdl2
+[DEBUG  ] [Using selector] EpollSelector
+[INFO   ] [GL          ] NPOT texture support is available
+[WARNING] Deprecated property "<BooleanProperty name=allow_stretch>" of object "<Screens.logo_screen.ClickableImage object at 0x7fff6b1a7d20>" has been set, it will be removed in a future version
+[WARNING] Deprecated property "<BooleanProperty name=keep_ratio>" of object "<Screens.logo_screen.ClickableImage object at 0x7fff6b1a7d20>" was accessed, it will be removed in a future version
+Unable to connect to X server
+[INFO   ] [ProbeSysfs  ] device match: /dev/input/event6
+[INFO   ] [MTD         ] Read event from </dev/input/event6>
+[INFO   ] [Base        ] Start application main loop
+[INFO   ] [MTD         ] </dev/input/event6> range position X is 0 - 1024
+[INFO   ] [MTD         ] </dev/input/event6> range position Y is 0 - 600
+[INFO   ] [MTD         ] </dev/input/event6> range touch major is 0 - 600
+[INFO   ] [MTD         ] </dev/input/event6> range touch minor is 0 - 600
+[INFO   ] [MTD         ] </dev/input/event6> range pressure is 0 - 255
+[INFO   ] [MTD         ] </dev/input/event6> axes inversion: X is 0, Y is 0
+[INFO   ] [MTD         ] </dev/input/event6> rotation set to 0
+[INFO   ] [Base        ] Leaving application in progress...
+[INFO   ] [Logger      ] Record log in /home/dickin/.kivy/logs/kivy_25-11-23_4.txt
+[INFO   ] [Kivy        ] v2.3.1
+[INFO   ] [Kivy        ] Installed at "/home/dickin/FRC/venv/lib/python3.13/site-packages/kivy/__init__.py"
+[INFO   ] [Python      ] v3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]
+[INFO   ] [Python      ] Interpreter at "/home/dickin/FRC/venv/bin/python"
+[INFO   ] [Logger      ] Purge log fired. Processing...
+[INFO   ] [Logger      ] Purge finished!
+[INFO   ] [Factory     ] 195 symbols loaded
+[INFO   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[INFO   ] [Window      ] Provider: sdl2
+[INFO   ] [GL          ] Using the "OpenGL" graphics system
+[INFO   ] [GL          ] Backend used <sdl2>
+[INFO   ] [GL          ] OpenGL version <b'3.1 Mesa 25.0.7-2+rpt3'>
+[INFO   ] [GL          ] OpenGL vendor <b'Broadcom'>
+[INFO   ] [GL          ] OpenGL renderer <b'V3D 7.1.10.2'>
+[INFO   ] [GL          ] OpenGL parsed version: 3, 1
+[INFO   ] [GL          ] Shading version <b'1.40'>
+[INFO   ] [GL          ] Texture max size <4096>
+[INFO   ] [GL          ] Texture max units <24>
+[INFO   ] [Window      ] auto add sdl2 input provider
+[INFO   ] [Window      ] virtual keyboard not allowed, single mode, not docked
+[INFO   ] [Text        ] Provider: sdl2
+[DEBUG  ] [Using selector] EpollSelector
+[INFO   ] [GL          ] NPOT texture support is available
+[WARNING] Deprecated property "<BooleanProperty name=allow_stretch>" of object "<Screens.logo_screen.ClickableImage object at 0x7fff5cb37d20>" has been set, it will be removed in a future version
+[WARNING] Deprecated property "<BooleanProperty name=keep_ratio>" of object "<Screens.logo_screen.ClickableImage object at 0x7fff5cb37d20>" was accessed, it will be removed in a future version
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+[INFO   ] [ProbeSysfs  ] device match: /dev/input/event0
+[INFO   ] [MTD         ] Read event from </dev/input/event0>
+[INFO   ] [Base        ] Start application main loop
+[INFO   ] [MTD         ] </dev/input/event0> range position X is 0 - 1024
+[INFO   ] [MTD         ] </dev/input/event0> range position Y is 0 - 600
+[INFO   ] [MTD         ] </dev/input/event0> range touch major is 0 - 600
+[INFO   ] [MTD         ] </dev/input/event0> range touch minor is 0 - 600
+[INFO   ] [MTD         ] </dev/input/event0> range pressure is 0 - 255
+[INFO   ] [MTD         ] </dev/input/event0> axes inversion: X is 0, Y is 0
+[INFO   ] [MTD         ] </dev/input/event0> rotation set to 0
+[INFO   ] [Base        ] Leaving application in progress...
+[INFO   ] [Logger      ] Record log in /home/dickin/.kivy/logs/kivy_25-11-23_5.txt
+[INFO   ] [Kivy        ] v2.3.1
+[INFO   ] [Kivy        ] Installed at "/home/dickin/FRC/venv/lib/python3.13/site-packages/kivy/__init__.py"
+[INFO   ] [Python      ] v3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]
+[INFO   ] [Python      ] Interpreter at "/home/dickin/FRC/venv/bin/python"
+[INFO   ] [Logger      ] Purge log fired. Processing...
+[INFO   ] [Logger      ] Purge finished!
+[INFO   ] [Factory     ] 195 symbols loaded
+[INFO   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[INFO   ] [Window      ] Provider: sdl2
+[INFO   ] [GL          ] Using the "OpenGL" graphics system
+[INFO   ] [GL          ] Backend used <sdl2>
+[INFO   ] [GL          ] OpenGL version <b'3.1 Mesa 25.0.7-2+rpt3'>
+[INFO   ] [GL          ] OpenGL vendor <b'Broadcom'>
+[INFO   ] [GL          ] OpenGL renderer <b'V3D 7.1.10.2'>
+[INFO   ] [GL          ] OpenGL parsed version: 3, 1
+[INFO   ] [GL          ] Shading version <b'1.40'>
+[INFO   ] [GL          ] Texture max size <4096>
+[INFO   ] [GL          ] Texture max units <24>
+[INFO   ] [Window      ] auto add sdl2 input provider
+[INFO   ] [Window      ] virtual keyboard not allowed, single mode, not docked
+[INFO   ] [Text        ] Provider: sdl2
+[DEBUG  ] [Using selector] EpollSelector
+[INFO   ] [GL          ] NPOT texture support is available
+[WARNING] Deprecated property "<BooleanProperty name=allow_stretch>" of object "<Screens.logo_screen.ClickableImage object at 0x7ffed9747d20>" has been set, it will be removed in a future version
+[WARNING] Deprecated property "<BooleanProperty name=keep_ratio>" of object "<Screens.logo_screen.ClickableImage object at 0x7ffed9747d20>" was accessed, it will be removed in a future version
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+WARNING: running xinput against an Xwayland server. See the xinput man page for details.
+[INFO   ] [ProbeSysfs  ] device match: /dev/input/event2
+[INFO   ] [MTD         ] Read event from </dev/input/event2>
+[INFO   ] [Base        ] Start application main loop
+[INFO   ] [MTD         ] </dev/input/event2> range position X is 0 - 1024
+[INFO   ] [MTD         ] </dev/input/event2> range position Y is 0 - 600
+[INFO   ] [MTD         ] </dev/input/event2> range touch major is 0 - 600
+[INFO   ] [MTD         ] </dev/input/event2> range touch minor is 0 - 600
+[INFO   ] [MTD         ] </dev/input/event2> range pressure is 0 - 255
+[INFO   ] [MTD         ] </dev/input/event2> axes inversion: X is 0, Y is 0
+[INFO   ] [MTD         ] </dev/input/event2> rotation set to 0
+[INFO   ] [Base        ] Leaving application in progress...
